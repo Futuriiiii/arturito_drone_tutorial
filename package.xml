@@ -1,0 +1,25 @@
+<package>
+  <name>arturito_drone_tutorial</name>
+  <version>0.6.0</version>
+
+  <description>This package contains a number of URDF tutorials.</description>
+  <author email="davidvlu@gmail.com">David V. Lu!!</author>
+
+  <maintainer email="rafael.novack7@gmail.com">Rafael Novack</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>ros2launch</build_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>joint_state_publisher_gui</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>rviz2</run_depend>
+  <run_depend>xacro</run_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
